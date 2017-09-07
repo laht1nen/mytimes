@@ -184,7 +184,6 @@ nav li a:hover {
 #medium {
 	width: 300px;
 	height: 1090px;
-	background-color: aqua;
 	margin-top: 160px;
 	display: flex;
 	flex-wrap: wrap;
@@ -193,24 +192,49 @@ nav li a:hover {
 
 #mediumtext {
 	width: 300px;
-	height: 450px;
-	background-color: blue;
+	height: 435px;
+}
+
+#mediumtext h1 {
+	font-family: Georgia;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#mediumtext p {
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+	padding-top: 20px;
 }
 
 #mediumtextpic {
 	width: 300px;
 	height: 300px;
-	background-color: red;
 	margin-top: 30px;
+	position: relative;
+	text-align: center;
+	margin-left: -1px;
+}
+
+#mediumtextpic h1 {
+	position: absolute;
+	margin-top: -190px;
+	color: white;
 }
 
 #mediumlowertext {
 	width: 300px;
 	height: 280px;
-	background-color: black;
 	margin-top: 30px;
 }
 
+#mediumlowertext p {
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+	margin-top: -15px;
+}
 
 #small {
 	width: 240px;
