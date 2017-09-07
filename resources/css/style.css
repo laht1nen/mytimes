@@ -69,7 +69,7 @@ nav li a:hover {
 
 #main {
 	width: 100%;
-	height: 1765px;
+	height: 1715px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -78,7 +78,7 @@ nav li a:hover {
 
 #large {
 	width: 630px;
-	height: 1290px;
+	height: 1215px;
 	margin-top: 160px;
 	display: flex;
 	flex-wrap: wrap;
@@ -199,6 +199,7 @@ nav li a:hover {
 	font-family: Georgia;
 	font-size: 32px;
 	font-weight: bold;
+	margin-top: -7px;
 }
 
 #mediumtext p {
@@ -239,7 +240,6 @@ nav li a:hover {
 #small {
 	width: 240px;
 	height: 600px;
-	background-color: aqua;
 	margin-top: 160px;
 	display: flex;
 	flex-wrap: wrap;
@@ -249,27 +249,59 @@ nav li a:hover {
 #smallpic {
 	width: 240px;
 	height: 240px;
-	background-color: blue;
 }
 
 #smallheading {
 	width: 240px;
-	height: 50px;
-	background-color: red;
+	height: 30px;
+	text-align: center;
 }
 
-#smalltable {
+#smallheading h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#smalllist {
 	width: 240px;
 	height: 280px;
-	background-color: black;
 	margin-top: 30px;
+}
+
+#smalllist ul {
+  list-style-type: none;
+}
+
+#smalllist li {
+	border-bottom: 1px solid black;
+	background-color: #e6e6e6;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+#smalllist li p {
+	padding-bottom: 15px;
+	font-family: Raleway, sans-serif;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+#smalllist li p:hover {
+	text-decoration: underline;
 }
 
 footer {
 	width: 100%;
-	height: 300px;
+	height: 350px;
 	background-color: MediumAquamarine;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-
-
+#footercontent {
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	
+}
