@@ -301,7 +301,67 @@ footer {
 
 #footercontent {
 	height: 100px;
-	width: 100px;
-	border: 1px solid black;
-	
+	width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+#footerheading {
+	height: 20px;
+	width: 105px;
+	border-right: 2px solid white;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+#footerheading h2 {
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+#footernav {
+	margin-left: 0px;
+	height: 30px;
+	width: 246px;
+}
+
+#footernav ul {
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+#footernav ul li {
+	display: inline;
+}
+
+#footernav ul li a {
+	text-decoration: underline;
+	font-family: Verdana;
+	font-size: 12px;
+	color: black;
+	margin-left: 22px;
+	opacity: 0.8;
+}
+
+#footernav ul li a:hover {
+	text-decoration: none;
+	opacity: 1;
+}
+
+
+#footerrights {
+	height: 50px;
+	width: 400px;
+	text-align: center;
+}
+
+#footerrights {
+	text-decoration: underline;
+	font-family: Verdana;
+	font-size: 12px;
+	color: black;
+	padding-top: 20px;
 }
